@@ -9,7 +9,7 @@ app.get('/', (_req, res) => {
   res.json({ message: 'Hello World' });
 });
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
+  console.log(`🚀 Server running on port ${PORT} 🚀 `);
 });
